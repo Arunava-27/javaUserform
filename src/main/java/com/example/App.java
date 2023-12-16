@@ -20,7 +20,7 @@ public class App extends JFrame {
         // Set up the JFrame
         super("User Details Form");
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-        setSize(400, 200);
+        setSize(450, 250);
         setLocationRelativeTo(null);
 
         // Create components
@@ -28,9 +28,9 @@ public class App extends JFrame {
         JLabel ageLabel = new JLabel("Age:");
         JLabel emailLabel = new JLabel("Email:");
 
-        nameField = new JTextField(20);
+        nameField = new JTextField(30);
         ageField = new JTextField(5);
-        emailField = new JTextField(20);
+        emailField = new JTextField(30);
 
         JButton saveButton = new JButton("Save");
         saveButton.addActionListener(new ActionListener() {
